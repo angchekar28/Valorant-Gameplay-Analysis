@@ -12,7 +12,7 @@ This project analyzes Valorant gameplay data and evaluates different machine lea
 ## ⚙️ Methodology
 1. **Data Preprocessing**
    - Handling missing values
-   - Normalization of numeric features
+   - Label encoding the output
    - Encoding categorical data (e.g., Agents, Maps)
 
 2. **Exploratory Data Analysis (EDA)**
@@ -21,10 +21,8 @@ This project analyzes Valorant gameplay data and evaluates different machine lea
    - Correlation between rank and gameplay metrics
 
 3. **Model Implementation**
-   - Logistic Regression for match outcome prediction
-   - Decision Tree for rank classification
-   - Random Forest for performance score estimation
-   - K-Means Clustering for player segmentation
+   - XGBoost Classifer for o/p prediction
+   - RandomForestClassifier for o/p prediction
 
 4. **Model Evaluation**
    - Accuracy and precision metrics
